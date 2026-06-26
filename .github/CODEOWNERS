@@ -1,0 +1,47 @@
+# CODEOWNERS for monorepo-starter
+#
+# This repository is currently maintained by a single owner.
+# Ownership can be expanded later as contributors, package owners,
+# service owners, security reviewers, and release maintainers are added.
+
+# Default ownership
+* @thomascarter613
+
+# Project intent and governance
+/project-charter.md @thomascarter613
+/README.md @thomascarter613
+/CONTRIBUTING.md @thomascarter613
+/SECURITY.md @thomascarter613
+/AGENTS.md @thomascarter613
+/LICENSE @thomascarter613
+
+# Architecture decisions
+/docs/architecture/decisions/ @thomascarter613
+
+# Repository automation and CI/CD
+/.github/ @thomascarter613
+
+# Tooling and package management
+/package.json @thomascarter613
+/bun.lock @thomascarter613
+/mise.toml @thomascarter613
+/tsconfig.json @thomascarter613
+/tsconfig.base.json @thomascarter613
+/biome.json @thomascarter613
+/moon.yml @thomascarter613
+/.moon/ @thomascarter613
+
+# Governance, policy, and security
+/policies/ @thomascarter613
+/.moro/ @thomascarter613
+
+# Infrastructure and environments
+/infra/ @thomascarter613
+/.devcontainer/ @thomascarter613
+
+# CLI, generators, templates, and profiles
+/packages/moro/ @thomascarter613
+/tools/ @thomascarter613
+/templates/ @thomascarter613
+/profiles/ @thomascarter613
+/scripts/ @thomascarter613
