@@ -19,15 +19,16 @@
   ],
   "scripts": {
     "check": "bun run format:check && bun run lint && bun run typecheck && bun run test",
-    "format": "echo 'format not configured yet'",
-    "format:check": "echo 'format check not configured yet'",
-    "lint": "echo 'lint not configured yet'",
+    "format": "biome check --write .",
+    "format:check": "biome check .",
+    "lint": "biome lint .",
     "typecheck": "tsc -b tsconfig.json --pretty false",
     "test": "echo 'tests not configured yet'",
     "build": "echo 'build not configured yet'",
     "doctor": "echo 'moro doctor not implemented yet'"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.5.1",
     "typescript": "^6.0.3"
   }
 }
