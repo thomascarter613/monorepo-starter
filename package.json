@@ -22,9 +22,12 @@
     "format": "echo 'format not configured yet'",
     "format:check": "echo 'format check not configured yet'",
     "lint": "echo 'lint not configured yet'",
-    "typecheck": "echo 'typecheck not configured yet'",
+    "typecheck": "tsc -b tsconfig.json --pretty false",
     "test": "echo 'tests not configured yet'",
     "build": "echo 'build not configured yet'",
     "doctor": "echo 'moro doctor not implemented yet'"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }
