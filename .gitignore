@@ -1,0 +1,97 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
+# Package manager artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.bun-install.log
+
+# Bun
+.bun/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build outputs
+dist/
+build/
+out/
+.output/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.turbo/
+.moon/cache/
+.moon/docker/
+.cache/
+tmp/
+temp/
+
+# Test and coverage outputs
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Local databases and storage
+*.sqlite
+*.sqlite3
+*.db
+data/local/
+data/tmp/
+infra/local/data/
+
+# Docker and local runtime state
+docker-compose.override.yml
+*.local.yml
+
+# Secrets and certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Generated reports
+reports/generated/
+reports/tmp/
+
+# Misc
+*.bak
+*.swp
+*.swo
