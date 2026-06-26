@@ -18,14 +18,14 @@
     "configs/*"
   ],
   "scripts": {
-    "check": "bun run format:check && bun run lint && bun run typecheck && bun run test",
-    "format": "biome check --write .",
-    "format:check": "biome check .",
-    "lint": "biome lint .",
-    "typecheck": "tsc -b tsconfig.json --pretty false",
-    "test": "echo 'tests not configured yet'",
-    "build": "echo 'build not configured yet'",
-    "doctor": "echo 'moro doctor not implemented yet'"
+    "check": "moon run root:check",
+    "format": "moon run root:format",
+    "format:check": "moon run root:format-check",
+    "lint": "moon run root:lint",
+    "typecheck": "moon run root:typecheck",
+    "test": "moon run root:test",
+    "build": "moon run root:build",
+    "doctor": "moon run root:doctor"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.1",

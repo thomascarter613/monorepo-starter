@@ -1,0 +1,32 @@
+$schema: "https://moonrepo.dev/schemas/project.json"
+
+language: "typescript"
+
+tasks:
+  format:
+    command: "biome check --write ."
+
+  format-check:
+    command: "biome check ."
+
+  lint:
+    command: "biome lint ."
+
+  typecheck:
+    command: "tsc -b tsconfig.json --pretty false"
+
+  test:
+    command: "echo 'tests not configured yet'"
+
+  build:
+    command: "echo 'build not configured yet'"
+
+  doctor:
+    command: "echo 'moro doctor not implemented yet'"
+
+  check:
+    deps:
+      - "format-check"
+      - "lint"
+      - "typecheck"
+      - "test"
