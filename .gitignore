@@ -95,3 +95,7 @@ reports/tmp/
 *.bak
 *.swp
 *.swo
+
+# moon
+.moon/cache
+.moon/docker
