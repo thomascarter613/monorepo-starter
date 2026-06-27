@@ -25,10 +25,13 @@
     "typecheck": "moon run root:typecheck",
     "test": "moon run root:test",
     "build": "moon run root:build",
-    "doctor": "moon run root:doctor"
+    "doctor": "moon run root:doctor",
+    "commitlint": "commitlint --edit"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.1",
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
     "@moonrepo/cli": "^2.3.5",
     "typescript": "^6.0.3"
   },
