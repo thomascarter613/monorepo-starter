@@ -26,13 +26,15 @@
     "test": "moon run root:test",
     "build": "moon run root:build",
     "doctor": "moon run root:doctor",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "prepare": "lefthook install"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.1",
     "@commitlint/cli": "^21.1.0",
     "@commitlint/config-conventional": "^21.1.0",
     "@moonrepo/cli": "^2.3.5",
+    "lefthook": "^2.1.9",
     "typescript": "^6.0.3"
   },
   "trustedDependencies": [
