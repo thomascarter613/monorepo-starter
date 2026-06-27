@@ -15,3 +15,4 @@ This file indexes Architecture Decision Records for `monorepo-starter`.
 
 Add every new ADR to this index in the same commit that creates the ADR.
 | ADR-0007 | Use Trunk-Based Development with GitHub Flow | Accepted |
+| ADR-0008 | Use Conventional Commits | Accepted |
