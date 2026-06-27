@@ -4,16 +4,16 @@ language: "typescript"
 
 tasks:
   format:
-    command: "biome check --write ."
+    command: "bunx biome check --write ."
 
   format-check:
-    command: "biome check ."
+    command: "bunx biome check ."
 
   lint:
-    command: "biome lint ."
+    command: "bunx biome lint ."
 
   typecheck:
-    command: "tsc -b tsconfig.json --pretty false"
+    command: "bunx tsc -b tsconfig.json --pretty false"
 
   test:
     command: "echo 'tests not configured yet'"
